@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secrets — NEVER commit these
+db_config.py
+.env
+.env.*
+!.env.example
+
+# Local data dumps
+*.jsonl
+reports/
+data/
+output/
+/tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Modal local config
+.modal/

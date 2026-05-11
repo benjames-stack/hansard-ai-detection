@@ -1,0 +1,12 @@
+# Core analysis dependencies
+psycopg2-binary>=2.9
+numpy>=1.26
+scipy>=1.11
+ruptures>=1.1
+matplotlib>=3.8
+
+# Claude API (LLM-as-judge)
+anthropic>=0.92
+
+# Modal (GPU-based detectors)
+modal>=0.65
